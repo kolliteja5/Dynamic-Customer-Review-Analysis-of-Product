@@ -1,0 +1,2 @@
+1) https://stackoverflow.com/questions/43646877/python-extract-positive-words-from-a-string-using-sentiment-vader
+2)
