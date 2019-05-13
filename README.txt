@@ -22,8 +22,8 @@ If you want to find the Analysis of customer reviews of any Product in Amazon, t
 
 1) Open Parameter file, 
 	a) change the name of product you want to analyse the customer reviews of
-	b) Enter the URL, that means, go to the page where the customer reviews of the specific product is available. an example is shown in the URL_example_page.jpeg. Copy the link and paste in URL column of parameter file.
-	c) Right click on any of the review and select "View Page Source" and copy first line fo any review and check on "View page source" page with "ctrl+find". the example screenshot is available in "checking_for_class_name.jpeg". Now before the found sentence, we observe the "class" name(for my project the class name is "a-size-base").So update the classs name in parameter file in class_name column in line number "3".
+	b) Enter the URL, that means, go to the page where the customer reviews of the specific product is available. an example is shown in the URL_example_page.jpg. Copy the link and paste in URL column of parameter file.
+	c) Right click on any of the review and select "View Page Source" and copy first line fo any review and check on "View page source" page with "ctrl+find". the example screenshot is available in "checking_for_class_name.jpg". Now before the found sentence, we observe the "class" name(for my project the class name is "a-size-base").So update the classs name in parameter file in class_name column in line number "3".
 	d) it is the user choice to extract the number of pages. The only thing is to provide the range in the "No_Pages_Extract" column: (1,1000)
 2) Before executing the code goto:
  Tools>Preferences>Ipython Console>"Graphics">Backend:Inline>change Backend:Automatic>OK
